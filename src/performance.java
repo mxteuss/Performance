@@ -4,16 +4,16 @@ public class performance {
             long start = System.currentTimeMillis();
             concatString(30_000);
             long end = System.currentTimeMillis();
-            System.out.println("Tempo gasto para String  " + (end - start) + "ms");
+            System.out.println("Tempo gasto para String:  " + (end - start) + "ms");
             start = System.currentTimeMillis();
             concatStringBuilder(1000_000);
             end = System.currentTimeMillis();
-            System.out.println("Tempo gasto para String  " + (end - start) + "ms");
+            System.out.println("Tempo gasto para StringBuilder: " + (end - start) + "ms");
 
             start = System.currentTimeMillis();
             concatStringBuffer(1000_000);
             end = System.currentTimeMillis();
-            System.out.println("Tempo gasto para String  " + (end - start) + "ms");
+            System.out.println("Tempo gasto para StringBuffer " + (end - start) + "ms");
         }
 
 
