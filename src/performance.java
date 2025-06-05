@@ -13,7 +13,7 @@ public class performance {
             start = System.currentTimeMillis();
             concatStringBuffer(1000_000);
             end = System.currentTimeMillis();
-            System.out.println("Tempo gasto para StringBuffer " + (end - start) + "ms");
+            System.out.println("Tempo gasto para StringBuffer: " + (end - start) + "ms");
         }
 
 
