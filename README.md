@@ -2,4 +2,5 @@
 Código de teste de desempenho para quantificar diferentes formas de concatenação de strings. Demonstra como o uso de `StringBuilder` e `StringBuffer` pode impactar significativamente o tempo necessário para realizar operações de concatenação, especialmente em loops com grande número de iterações.
 
 
-![image](https://github.com/user-attachments/assets/0ae71d4d-3fcd-4136-aa33-05f72d6127a0)
+![image](https://github.com/user-attachments/assets/453b5ea6-ca90-42be-9b46-db8d776d45c0)
+
